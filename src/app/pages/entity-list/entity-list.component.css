@@ -1,0 +1,27 @@
+/* Basic table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px;
+}
+
+/* Table header styling */
+th {
+  background-color: #3498db;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #3498db;
+}
+
+/* Table row styling */
+td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Alternating row background colors for better readability */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
