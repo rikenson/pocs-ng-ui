@@ -2,10 +2,10 @@ import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-entity-list',
-  templateUrl: './entity-list.component.html',
-  styleUrls: ['./entity-list.component.css']
+  templateUrl: './ListItem.html',
+  styleUrls: ['./ListItem.css']
 })
-export class EntityListComponent {
+export class ListItem {
 
   handleShowDetails(entityId: number) {
     console.log(`************ ${entityId}`);
